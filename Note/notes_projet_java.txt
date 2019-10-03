@@ -1,0 +1,8 @@
+
+	* Projet : analyse caractéristiques voitures => consommation électrique, énergétique, longévité, 
+			prix d'achat, rentabilité énergétique, rentabilité économique,  prix à l'année (consommation, assurance, taxe, etc), 
+			etc 
+			=> trouver des valeurs "minimum" jugées "bonnes" pour chaque valeur => appliquer à la db pour optimiser 
+			 le choix de véhicule (entreprise) (filtrer les véhicules qui sont meilleurs que ces valeurs minimum, puis les 
+			 classer selon une caractéristique au choix de l'entreprise)
+	* commit template
