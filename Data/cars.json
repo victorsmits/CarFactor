@@ -1,12 +1,75 @@
 {
   "data": [{
     "brand": "Opel",
-    "model": "Corsa OPC",
+    "model": "Corsa",
     "year": 2015,
-    "consomationEl": 0,
-    "Emission":174,
-    "consomation": 7.5,
+    "Emission": 126,
+    "consumption": 5.4,
+    "price": 13790,
+    "fuel": "Petrol",
+    "power": 51,
+    "norm": 6
 
-  }
+  },
+    {
+      "brand": "BMW",
+      "model": "Série 1",
+      "year": 2017,
+      "Emission": 116,
+      "consumption": 5.0,
+      "price": 22300,
+      "fuel": "Petrol",
+      "power": 80,
+      "norm": 6
+
+    },
+    {
+      "brand": "Tesla",
+      "model": "Model S",
+      "year": 2018,
+      "Emission": 0,
+      "consumption": 0,
+      "price": 148800,
+      "fuel": "Electric",
+      "power": 440,
+      "norm": 0
+
+    },
+    {
+      "brand": "Renault",
+      "model": "Clio",
+      "year": 2014,
+      "Emission": 99,
+      "consumption": 3.8,
+      "price": 17500,
+      "fuel": "Diesel",
+      "power": 55,
+      "norm": 5
+
+    },
+    {
+      "brand": "Audi",
+      "model": "A3 Sportback",
+      "year": 2016,
+      "Emission": 149,
+      "consumption": 6.5,
+      "price": 36170,
+      "fuel": "Petrol",
+      "power": 132,
+      "norm": 6
+
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Golf",
+      "year": 2012,
+      "Emission": 134,
+      "consumption": 5.1,
+      "price": 32340,
+      "fuel": "Petrol",
+      "power": 125,
+      "norm": 5
+
+    }
   ]
 }
