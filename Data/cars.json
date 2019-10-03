@@ -3,10 +3,55 @@
     "brand": "Opel",
     "model": "Corsa OPC",
     "year": 2015,
-    "consomationEl": 0,
     "Emission":174,
-    "consomation": 7.5,
-
+    "consumption": 7.5,
+    "price" : ,
+    "fuel" : "",
+  },
+  {
+    "brand" : "BMW",
+    "model" : "M3",
+    "year" : 2018,
+    "Emission" : 209,
+    "consumption" : 9.1,
+    "price": 86500,
+    "fuel" : "petrol",
+    "power" : 317,
+    "norm" : 6
+  },
+  {
+    "brand": "BMW",
+    "model": "Serie 3",
+    "year": 2019,
+    "Emission":123,
+    "consumption": 4.9,
+    "price": 86500,
+    "fuel" : "Diesel",
+    "power" : 110,
+    "norm" : 6
+  },
+  {
+    "brand": "Audi",
+    "model": "S5",
+    "year": 2019,
+    "Emission":174,
+    "consumption": 7.7,
+    "price": 76920,
+    "fuel" : "petrol",
+    "power" : 260,
+    "norm" : 6
+  },
+  {
+    "brand": "Volkswagen",
+    "model": "Polo",
+    "year": 2016,
+    "Emission":114,
+    "consumption": 5,
+    "price": 15610,
+    "fuel" : "Diesel",
+    "power" : 44,
+    "norm" : 6
   }
+
   ]
 }
