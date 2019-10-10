@@ -6,10 +6,23 @@ public class CarModelClass {
     private int year;
     private int emission;
     private int consumption;
-    private int price;
+    private int catalogueValue;
     private String fuel;
     private int power;
     private int norm;
+
+    public CarModelClass(String brand, String model, int year, int emission,
+                         int consumption, int catalogueValue, String fuel, int power, int norm) {
+        this.brand = brand;
+        this.model = model;
+        this.year = year;
+        this.emission = emission;
+        this.consumption = consumption;
+        this.catalogueValue = catalogueValue;
+        this.fuel = fuel;
+        this.power = power;
+        this.norm = norm;
+    }
 
     public String getBrand() {
         return brand;
@@ -51,14 +64,6 @@ public class CarModelClass {
         this.consumption = consumption;
     }
 
-    public int getPrice() {
-        return price;
-    }
-
-    public void setPrice(int price) {
-        this.price = price;
-    }
-
     public String getFuel() {
         return fuel;
     }
@@ -81,5 +86,13 @@ public class CarModelClass {
 
     public void setNorm(int norm) {
         this.norm = norm;
+    }
+
+    public int getCatalogueValue() {
+        return catalogueValue;
+    }
+
+    public void setCatalogueValue(int catalogueValue) {
+        this.catalogueValue = catalogueValue;
     }
 }

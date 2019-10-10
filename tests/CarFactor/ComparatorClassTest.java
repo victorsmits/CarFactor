@@ -4,5 +4,13 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class CarClassTest extends CarClass {
+class ComparatorClassTest {
+
+  @Test
+  void filter() {
+  }
+
+  @Test
+  void comparator() {
+  }
 }

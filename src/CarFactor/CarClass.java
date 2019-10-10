@@ -6,6 +6,17 @@ public class CarClass extends CarModelClass {
     private String plateNumber;
     private int mileage;
 
+    public CarClass(String brand, String model, int year, int emission,
+                    int consumption, int catalogueValue, String fuel, int power, int norm,
+                    CarModelClass carModel, int buyYear, String plateNumber, int mileage) {
+
+        super(brand, model, year, emission, consumption, catalogueValue, fuel, power, norm);
+        this.carModel = carModel;
+        this.buyYear = buyYear;
+        this.plateNumber = plateNumber;
+        this.mileage = mileage;
+    }
+
     public int getBuyYear() {
         return buyYear;
     }
