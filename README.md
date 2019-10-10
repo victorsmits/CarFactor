@@ -9,4 +9,3 @@ The user can also classify filtered cars following a criteria of his choice.
 The core code lives in the xxx file. 
 ### Execution flow
 
-## Commit template ?
