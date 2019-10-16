@@ -1,10 +1,15 @@
 package CarFactor;
 
 public class CalculatorClass {
+    private static double essencePrice = 1.479;
+    private static double dieselPrice = 0; //?
+    private static double electricityPrice = 0; //?
+    private static int averageMileage = 15151;
+
     public CalculatorClass() {
     }
 
-    public static double insuranceCalcul(int catalogValue, int power){
+    public static double insuranceCost(int catalogValue, int power){
         /**
          * Returns the annual price of a car insurance given its catalog value and power.
          * The formula used is approximated from a given set of cars with real insurance prices.
@@ -26,11 +31,14 @@ public class CalculatorClass {
         return insurancePrice;
     }
 
-    public static double taxCalcul(double power, double emission){
+    public static double taxCost(double power, double emission){
         /**
          * Circulation tax in Belgium per year
          * PF [CV] = (CO2 : 45) [g/km] + (P : 40)1,6 [kW]
          */
+        if (emission < 0 || power < 0){
+            throw new IllegalArgumentException();
+        }
         int taxePrice = 0;
         return taxePrice;
     }
@@ -41,11 +49,14 @@ public class CalculatorClass {
          * Fuel is a either "essence", "diesel" or "electric".
          * Consumption must be a positive number.
          */
+        if (consumption < 0 || (fuel != "essence" && fuel != "diesel" && fuel != "electric")){
+            throw new IllegalArgumentException();
+        }
         double energyConsumption = 0;
         return energyConsumption;
     }
 
-    public static int annualCostCalcul(int catalogValue, int power, double emission, String fuel, double consumption){
+    public static int annualCost(int catalogValue, int power, double emission, String fuel, double consumption){
         /**
          * Returns the annual cost of the car for an average citizen.
          * All arguments must be positive ; fuel is either "essence", "diesel" or "electric".
