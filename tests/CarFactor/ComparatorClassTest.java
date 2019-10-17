@@ -22,7 +22,8 @@ class ComparatorClassTest {
 
     List<CarClass> cars = new ArrayList<CarClass>();
 
-//    CarClass BM = new CarClass();
+    CarClass BM = new CarClass("BMW", "Serie 3", 2019, 123, 4.9, 86500, "Diesel", 110, 6, 2019, "1RDH113", 24000);
+
   }
 
   @Test

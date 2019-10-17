@@ -5,14 +5,14 @@ public class CarModelClass {
     private String model;
     private int year;
     private int emission;
-    private int consumption;
+    private double consumption;
     private int catalogueValue;
     private String fuel;
     private int power;
     private int norm;
 
     public CarModelClass(String brand, String model, int year, int emission,
-                         int consumption, int catalogueValue, String fuel, int power, int norm) {
+                         double consumption, int catalogueValue, String fuel, int power, int norm) {
         this.brand = brand;
         this.model = model;
         this.year = year;
@@ -56,11 +56,11 @@ public class CarModelClass {
         this.emission = emission;
     }
 
-    public int getConsumption() {
+    public double getConsumption() {
         return consumption;
     }
 
-    public void setConsumption(int consumption) {
+    public void setConsumption(double consumption) {
         this.consumption = consumption;
     }
 
