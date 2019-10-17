@@ -61,7 +61,7 @@ class CalculatorClassTest {
                                                                       155,
                                                                     114,
                                                                   "essence",
-                                                                  4.7));
+                                                                  4.7);
     assertTrue(difference >= 0  ? (difference <= 0.55*insuranceCost) : (-difference <= 0.55*insuranceCost),
                 "Total cost outside of admitted boundaries from insurance incertainty");
   }
