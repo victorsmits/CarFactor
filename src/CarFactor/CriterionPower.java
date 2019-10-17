@@ -2,10 +2,10 @@ package CarFactor;
 
 public class CriterionPower extends Criterion {
 
-  int maxPower;
-  int minPower;
+  private int maxPower;
+  private int minPower;
 
-  CriterionPower(int powerMax, int powerMin){
+  CriterionPower(int powerMin, int powerMax){
     this.maxPower = powerMax;
     this.minPower = powerMin;
   }
