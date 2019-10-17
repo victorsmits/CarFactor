@@ -6,7 +6,7 @@ public class CarClass extends CarModelClass{
   private int mileage;
 
   public CarClass(String brand, String model, int year, int emission,
-                  int consumption, int catalogueValue, String fuel,
+                  double consumption, int catalogueValue, String fuel,
                   int power, int norm, int buyYear, String plateNumber, int mileage) {
 
     super(brand, model, year, emission, consumption, catalogueValue, fuel, power, norm);
