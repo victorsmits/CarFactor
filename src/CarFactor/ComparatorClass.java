@@ -12,7 +12,8 @@ public class ComparatorClass {
 
   public static List<CarClass> filter(List<CarClass> cars, Map criteria){
         List<CarClass> carList = cars;
-
+    for (CarClass car: cars) {
+    }
         return carList;
     }
 
