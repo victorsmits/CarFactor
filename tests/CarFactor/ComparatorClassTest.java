@@ -47,7 +47,7 @@ class ComparatorClassTest {
 
     carsResponse = ComparatorClass.filter(cars, criteria);
 
-    assertEquals(cars, cars);
+    assertEquals(cars, carsResponse);
 
   }
 
