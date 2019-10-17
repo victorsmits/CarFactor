@@ -2,5 +2,14 @@ package CarFactor;
 
 public class CriterionEmission extends Criterion {
 
-  CriterionEmission(int emission){}
+  private int emission;
+
+  CriterionEmission(int emissionCO){
+    this.emission = emissionCO;
+  }
+
+  @Override
+  public boolean isValid(CarClass car){
+    return car.getEmission() <= this.emission;
+  }
 }
