@@ -39,8 +39,40 @@ public class CalculatorClass {
         if (emission < 0 || power < 0){
             throw new IllegalArgumentException();
         }
-        int taxePrice = 0;
-        return taxePrice;
+        double taxPrice = 0;
+        double[] prices = {104.68,
+                            151.14,
+                            197.47,
+                            244.20,
+                            290.93,
+                            337.13,
+                            437.45,
+                            537.90,
+                            637.96,
+                            738.41,
+                            838.73,
+                            1098.50,
+                            1358.54,
+                            1618.58,
+                            1877.96,
+                            2138.00};
+        double fiscalPower = (emission/45) + (power/40)*1.6;
+        int FP = (int)(fiscalPower - (fiscalPower % 1)); //integer division => rounded to the inferior
+        if (FP <= 4){
+            taxPrice = 83.56;
+        }
+        else if (FP > 20){
+            throw new IllegalArgumentException("Arguments are too big; FP cannot be computed");
+        }
+        else {
+             //https://www.mon-assurance-auto.be/taxes/taxe-circulation-auto-belgique.html
+            for (int i = 5; i <=20 ; i++){
+                if (FP == i){
+                    taxPrice = prices[i-5];
+                }
+            }
+        }
+        return taxPrice;
     }
 
     public static double energyConsumptionCalcul(String fuel, double consumption){
