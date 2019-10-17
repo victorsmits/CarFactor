@@ -2,6 +2,7 @@ package CarFactor;
 
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
+import java.lang.*;
 
 
 class CalculatorClassTest {
@@ -34,9 +35,9 @@ class CalculatorClassTest {
     /* test based on values given here :
       https://www.mon-assurance-auto.be/taxes/taxe-circulation-auto-belgique.html
      */
-    double[][] realValues = {{83.56,40, 70}, {151.14, 90, 90}, {437.45, 150, 100},
-                          {637.96, 170, 120}, {1098.50, 190, 140},
-                          {1618.58, 210, 140}, {2720.8, 270, 150}};
+    double[][] realValues = {{83.56,40, 70}, {104.68, 90, 90}, {244.2, 150, 100},
+                          {290.93, 170, 120}, {337.13, 190, 140},
+                          {437.45, 210, 140}, {1358.54, 350, 150}};
     for (int i = 0; i < realValues.length; i++){
       assertEquals(realValues[i][0], CalculatorClass.taxCost(realValues[i][1], realValues[i][2]),
                     "Inadequate tax computation formula.");
@@ -54,7 +55,7 @@ class CalculatorClassTest {
   @Test
   void annualCost() {
     double taxCost = 537.9;
-    double insuranceCost = 850; //TO BE REFACTORED : value depends on an unstable formula!
+    double insuranceCost = 850;
     double gasCost = 1053.191463;
     double totalCost = taxCost + insuranceCost + gasCost;
     double difference = totalCost - CalculatorClass.annualCost(70855,
@@ -62,7 +63,7 @@ class CalculatorClassTest {
                                                                     114,
                                                                   "essence",
                                                                   4.7);
-    assertTrue(difference >= 0  ? (difference <= 0.55*insuranceCost) : (-difference <= 0.55*insuranceCost),
+    assertTrue(Math.abs(difference) <= 0.55*insuranceCost,
                 "Total cost outside of admitted boundaries from insurance incertainty");
   }
 }
