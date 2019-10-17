@@ -17,7 +17,7 @@
     "Emission" : 209,
     "consumption" : 9.1,
     "price": 86500,
-    "fuel" : "petrol",
+    "fuel" : "Petrol",
     "power" : 317,
     "norm" : 6
   },
@@ -39,7 +39,7 @@
     "Emission":174,
     "consumption": 7.7,
     "price": 76920,
-    "fuel" : "petrol",
+    "fuel" : "Petrol",
     "power" : 260,
     "norm" : 6
   },

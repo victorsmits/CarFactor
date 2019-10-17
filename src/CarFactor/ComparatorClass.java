@@ -9,10 +9,9 @@ public class ComparatorClass {
     private List<CarClass> cars;
     private Map<String, Object> criteria = new HashMap<String, Object>();
 
-    public ComparatorClass(List<CarClass> cars) {}
 
-    public List<CarClass> filter(Map criteria){
-        List<CarClass> carList = new ArrayList<CarClass>();
+  public static List<CarClass> filter(List<CarClass> cars, Map criteria){
+        List<CarClass> carList = cars;
 
         return carList;
     }
