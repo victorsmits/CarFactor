@@ -15,7 +15,8 @@ public class CriterionYear extends Criterion {
     yearMax = yearMa;
   }
 
-  public static boolean isValid(CarModelClass car){
+  @Override
+  public boolean isValid(CarModelClass car){
     if (car.getYear() <= yearMin)
       return false;
     return yearMax != 0 && car.getYear() <= yearMax;

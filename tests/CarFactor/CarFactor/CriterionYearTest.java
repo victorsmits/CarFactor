@@ -4,12 +4,9 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class CriterionYearTest extends CriterionYear {
+class CriterionYearTest {
 
 
-  CriterionYearTest(int yearMi, int yearMa) {
-    super(yearMi, yearMa);
-  }
 
   @Test
   void testIsValid() {
@@ -21,7 +18,7 @@ class CriterionYearTest extends CriterionYear {
     CarClass car = new CarClass("BMW", "Serie 3", 2019, 123,
             4.9, 86500, "Diesel", 110, 6, 2019,
             "1CBF001", 24000);
-    ;
+
     assertTrue(criterionYearTest1.isValid(car));
     assertFalse(criterionYearTest2.isValid(car));
     assertTrue(criterionYearTest3.isValid(car));
