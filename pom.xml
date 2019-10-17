@@ -9,6 +9,9 @@
     <version>1.0-SNAPSHOT</version>
     <name>java-project</name>
     <url>http://maven.apache.org</url>
+    <build>
+        <testSourceDirectory>tests/CarFactor</testSourceDirectory>
+    </build>
     <dependencies>
         <dependency>
             <groupId>org.junit.platform</groupId>
