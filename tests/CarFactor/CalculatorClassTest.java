@@ -46,10 +46,10 @@ class CalculatorClassTest {
 
   @Test
   void energyConsumptionCalcul() {
-    assertEquals(9, CalculatorClass.energyConsumptionCalcul("essence", 1),
+    assertEquals(9, CalculatorClass.energyConsumption("essence", 1),
                   "");
-    assertEquals(12.9, CalculatorClass.energyConsumptionCalcul("diesel", 1));
-    assertEquals(1, CalculatorClass.energyConsumptionCalcul("electric", 1));
+    assertEquals(12.9, CalculatorClass.energyConsumption("diesel", 1));
+    assertEquals(1, CalculatorClass.energyConsumption("electric", 1));
   }
 
   @Test
