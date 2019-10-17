@@ -2,5 +2,17 @@ package CarFactor;
 
 public class CriterionMileage extends Criterion {
 
-  CriterionMileage(int mileageMin, int mileageMax ){}
+  private int minMileage;
+  private int maxMileage;
+
+  CriterionMileage(int mileageMin, int mileageMax ){
+    this.minMileage = mileageMin;
+    this.maxMileage = mileageMax;
+  }
+
+  @Override
+  public boolean isValid(CarClass car){
+    int mileage = car.get
+    return ;
+  }
 }
