@@ -12,7 +12,7 @@ public class CriterionMileage extends Criterion {
 
   @Override
   public boolean isValid(CarClass car){
-    int mileage = car.get
-    return ;
+    int mileage = car.getMileage();
+    return mileage >= this.minMileage && mileage <= this.maxMileage;
   }
 }

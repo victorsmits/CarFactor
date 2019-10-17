@@ -10,7 +10,7 @@ public class CriterionPower extends Criterion {
     this.minPower = powerMin;
   }
 
-  public boolean isValid(CarModelClass car){
+  public boolean isValid(CarClass car){
     int power = car.getPower();
     return power >= this.minPower && power <= this.maxPower;
   }

@@ -9,7 +9,7 @@ public class CriterionNorm extends Criterion {
   }
 
   @Override
-  public boolean isValid(CarModelClass car){
+  public boolean isValid(CarClass car){
     return car.getNorm() <= this.norm;
   }
 }

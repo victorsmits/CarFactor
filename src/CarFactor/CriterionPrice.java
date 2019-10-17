@@ -9,7 +9,7 @@ public class CriterionPrice extends Criterion {
   }
 
   @Override
-  public boolean isValid(CarModelClass car) {
+  public boolean isValid(CarClass car) {
     return car.getCatalogueValue() <= this.price;
   }
 
