@@ -75,20 +75,34 @@ public class CalculatorClass {
         return taxPrice;
     }
 
-    public static double energyConsumptionCalcul(String fuel, double consumption){
+    public static double energyConsumption(String fuel, double consumption){
         /**
          * Returns an energetic consumption of a car for a given fuel, over 100km.
          * Fuel is a either "essence", "diesel" or "electric".
          * Consumption must be a positive number.
          */
-        if (consumption < 0 || (fuel != "essence" && fuel != "diesel" && fuel != "electric")){
-            throw new IllegalArgumentException();
+        if (consumption < 0){
+            throw new IllegalArgumentException("Consumption cannot be negative");
         }
         double energyConsumption = 0;
+        switch(fuel){
+            case "essence":
+                energyConsumption = consumption * 9;
+                break;
+            case "diesel":
+                energyConsumption = consumption * 12.9;
+                break;
+            case "electric":
+                energyConsumption = consumption;
+                break;
+            default :
+                throw new IllegalArgumentException(String.format("Fuel type \'%s\' does not exist",
+                                                                    fuel));
+        }
         return energyConsumption;
     }
 
-    public static int annualCost(int catalogValue, int power, double emission, String fuel, double consumption){
+    public static double annualCost(int catalogValue, int power, double emission, String fuel, double consumption){
         /**
          * Returns the annual cost of the car for an average citizen.
          * All arguments must be positive ; fuel is either "essence", "diesel" or "electric".
@@ -97,7 +111,7 @@ public class CalculatorClass {
          *             - diesel is xx
          *             - electricity is xx /kWh
          */
-        int annualConsumption = 0;
+        double annualConsumption = 0;
         return annualConsumption;
     }
 }
