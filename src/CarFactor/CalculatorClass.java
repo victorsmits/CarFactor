@@ -75,29 +75,25 @@ public class CalculatorClass {
         return taxPrice;
     }
 
-    public static double energyConsumption(String fuel, double consumption){
+    public static double energyConsumption(String fuel, double consumption) {
         /**
          * Returns an energetic consumption of a car for a given fuel, over 100km.
          * Fuel is a either "essence", "diesel" or "electric".
          * Consumption must be a positive number.
          */
-        if (consumption < 0){
+        if (consumption < 0) {
             throw new IllegalArgumentException("Consumption cannot be negative");
         }
         double energyConsumption = 0;
-        switch(fuel){
-            case "essence":
-                energyConsumption = consumption * 9;
-                break;
-            case "diesel":
-                energyConsumption = consumption * 12.9;
-                break;
-            case "electric":
-                energyConsumption = consumption;
-                break;
-            default :
-                throw new IllegalArgumentException(String.format("Fuel type \'%s\' does not exist",
-                                                                    fuel));
+        if (fuel == "essence") {
+            energyConsumption = consumption * 9;
+        } else if (fuel == "diesel") {
+            energyConsumption = consumption * 12.9;
+        } else if (fuel == "electric") {
+            energyConsumption = consumption;
+        } else {
+            throw new IllegalArgumentException(String.format("Fuel type \'%s\' does not exist",
+                    fuel));
         }
         return energyConsumption;
     }
@@ -108,10 +104,26 @@ public class CalculatorClass {
          * All arguments must be positive ; fuel is either "essence", "diesel" or "electric".
          * Average mileage per year in Belgium is 15151km (data from 2015)
          * Price for : - essence is 1.479 €/L
-         *             - diesel is xx
-         *             - electricity is xx /kWh
+         *             - diesel is 1.55 €/L
+         *             - electricity is 0.1524 €/kWh
          */
-        double annualConsumption = 0;
-        return annualConsumption;
+        double taxCost = taxCost(power, emission);
+        double insuranceCost = insuranceCost(catalogValue, power);
+        double fuelConsumption = consumption * (15151/100); //liter per year
+        double fuelCost = 0;
+        if (fuel == "essence"){
+            fuelCost = fuelConsumption * 1.479;
+        }
+        else if (fuel == "diesel"){
+            fuelCost = fuelConsumption * 1.55;
+        }
+        else if (fuel == "electric"){
+            fuelCost = fuelConsumption * 0.1524;
+        }
+        else{
+            throw new IllegalArgumentException(String.format("Fuel type \'%s\' does not exist",
+                    fuel));
+        }
+        return taxCost + insuranceCost + fuelCost;
     }
 }
