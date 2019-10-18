@@ -11,13 +11,32 @@ public class ComparatorClass {
 
 
   public static List<CarClass> filter(List<CarClass> cars, Map criteria){
-        List<CarClass> carList = cars;
+    List<CarClass> carList = cars;
+    int buyYearMin = (int)criteria.get("buyYearMin");
+    int buyYearMax = (int)criteria.get("buyYearMax");
+    int consumption = (int)criteria.get("consumption");
+    int emission = (int)criteria.get("emission");
+    int mileage = (int)criteria.get("mileage");
+    int norm = (int)criteria.get("norm");
+    int powerMin = (int)criteria.get("powerMin");
+    int powerMax = (int)criteria.get("powerMax");
+    int price = (int)criteria.get("price");
+    int YearMin = (int)criteria.get("YearMin");
+    int YearMax = (int)criteria.get("YearMax");
+    String fuel = (String)criteria.get("fuel");
+
     for (CarClass car: cars) {
+      if (TestCriteria())
+        carList.add(car);
     }
         return carList;
     }
 
-    private List<String> cutString(String chain){
+  private boolean TestCriteria(int buyYearMin, int buyYearMax, int consumption) {
+    return false;
+  }
+
+  private List<String> cutString(String chain){
         List<String> listCriteria = new ArrayList<String>();
         return listCriteria;
     }

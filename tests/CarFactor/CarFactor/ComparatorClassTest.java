@@ -15,15 +15,18 @@ class ComparatorClassTest {
   void filter() {
 
     Map<String, Object> criteria = new HashMap<String, Object>();
-    criteria.put("year",2019);
-    criteria.put("emission",123);
+    criteria.put("buyYearMin", 2019);
+    criteria.put("buyYearMan", 2020);
     criteria.put("consumption",4.9);
-    criteria.put("price",86500);
+    criteria.put("emission",123);
     criteria.put("fuel","Diesel");
-    criteria.put("power",110);
-    criteria.put("norm",6);
-    criteria.put("buyYear", 2019);
     criteria.put("mileage", 25000);
+    criteria.put("norm",6);
+    criteria.put("powerMin",110);
+    criteria.put("powerMax",1);
+    criteria.put("price",86500);
+    criteria.put("yearMin",2017);
+    criteria.put("yearMax",2019);
 
     List<CarClass> cars = new ArrayList<CarClass>();
     List<CarClass> carsExpected = new ArrayList<CarClass>();
