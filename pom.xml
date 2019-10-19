@@ -10,7 +10,7 @@
     <name>java-project</name>
     <url>http://maven.apache.org</url>
     <build>
-        <sourceDirectory>tests/CarFactor</sourceDirectory>
+<!--        <sourceDirectory>tests/CarFactor</sourceDirectory>-->
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
