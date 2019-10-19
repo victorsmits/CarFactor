@@ -7,6 +7,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 class ComparatorClassTest extends ComparatorClass {
 
   @Test
@@ -46,9 +48,9 @@ class ComparatorClassTest extends ComparatorClass {
             "1PWM042", 24000);
     cars.add(BM003);
 
-//    carsResponse = ComparatorClass.filter(cars, criteria);
-//
-//    assertEquals(cars, carsResponse);
+    carsResponse = ComparatorClass.filter(cars, criteria);
+
+    assertEquals(cars, carsResponse);
 
   }
 
