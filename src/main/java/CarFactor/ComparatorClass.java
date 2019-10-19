@@ -26,7 +26,7 @@ public class ComparatorClass {
     String fuel = (String)criteria.get("fuel");
 
     for (CarClass car: cars) {
-      if (TestCriteria(YearMin,YearMax,consumption))
+      if (TestCriteria(buyYearMin,buyYearMax,consumption))
         carList.add(car);
     }
         return carList;
