@@ -2,28 +2,42 @@ package CarFactor;
 
 import java.util.*;
 
-public class ComparatorClass extends CarClass {
-  private List<CarClass> carsList;
-  private Map<String, Object> criteria = new HashMap<String, Object>();
+public class ComparatorClass {
 
+  public static List<CarClass> filter(List<CarClass> cars, Map criteria){
 
-  public List<CarClass> filter(List<CarClass> cars, Map criteria){
-    CriterionBuyYear buyYear = new CriterionBuyYear((int)criteria.get("buyYearMin"),(int)criteria.get("buyYearMax"));
+    CriterionBuyYear buyYear = new CriterionBuyYear((int)criteria.get("buyYearMin"),
+            (int)criteria.get("buyYearMax"));
+
     CriterionConsumption consumption = new CriterionConsumption((double)criteria.get("consumption"));
+
     CriterionEmission emission = new CriterionEmission((int)criteria.get("emission"));
-    CriterionMileage mileage = new CriterionMileage((int)criteria.get("mileageMin"), (int)criteria.get("mileageMax"));
+
+    CriterionMileage mileage = new CriterionMileage((int)criteria.get("mileageMin"),
+            (int)criteria.get("mileageMax"));
+
     CriterionNorm norm = new CriterionNorm((int)criteria.get("norm"));
-    CriterionPower power = new CriterionPower((int)criteria.get("powerMin"), (int)criteria.get("powerMax"));
+
+    CriterionPower power = new CriterionPower((int)criteria.get("powerMin"),
+            (int)criteria.get("powerMax"));
+
     CriterionPrice price = new CriterionPrice((int)criteria.get("price"));
-    CriterionYear year = new CriterionYear((int)criteria.get("YearMin"), (int)criteria.get("YearMax"));
+
+    CriterionYear year = new CriterionYear((int)criteria.get("YearMin"),
+            (int)criteria.get("YearMax"));
+
     CriterionFuel fuel = new CriterionFuel((String)criteria.get("fuel"));
 
+    List<CarClass> carsList = new ArrayList<CarClass>();
+
     for (CarClass car: cars) {
-      if (TestCriteria(buyYear, consumption, emission, mileage, norm, power, price, year, fuel, car))
-        this.carsList.add(car);
+      if (TestCriteria(buyYear, consumption, emission, mileage,
+              norm, power, price, year, fuel, car)) {
+        carsList.add(car);
+      }
     }
-        return this.carsList;
-    }
+      return carsList;
+  }
 
   private static boolean TestCriteria(CriterionBuyYear buyYear, CriterionConsumption consumption,
                                       CriterionEmission emission, CriterionMileage mileage,
@@ -48,18 +62,16 @@ public class ComparatorClass extends CarClass {
         return carList;
     }
 
-    public Map<String, Object> getCriteria() {
-        return criteria;
-    }
-
     public void setCriteria(int year, int emission,int consumption, int price,
                             String fuel, int power, int norm) {
-        this.criteria.put("year",year);
-        this.criteria.put("emission",emission);
-        this.criteria.put("consumption",consumption);
-        this.criteria.put("price",price);
-        this.criteria.put("fuel",fuel);
-        this.criteria.put("power",power);
-        this.criteria.put("norm",norm);
+       Map<String, Object> criteria = new HashMap<String, Object>();
+
+      criteria.put("year",year);
+      criteria.put("emission",emission);
+      criteria.put("consumption",consumption);
+      criteria.put("price",price);
+      criteria.put("fuel",fuel);
+      criteria.put("power",power);
+      criteria.put("norm",norm);
     }
 }

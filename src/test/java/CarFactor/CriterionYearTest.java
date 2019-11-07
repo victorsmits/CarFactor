@@ -11,12 +11,12 @@ class CriterionYearTest {
   @Test
   void testIsValid() {
 
-    CriterionYear criterionYearTest1 = new CriterionYear(2019);
-    CriterionYear criterionYearTest2 = new CriterionYear(2018);
+    CriterionYear criterionYearTest1 = new CriterionYear(2019,0);
+    CriterionYear criterionYearTest2 = new CriterionYear(2018,0);
     CriterionYear criterionYearTest3 = new CriterionYear(2016, 2019);
     CriterionYear criterionYearTest4 = new CriterionYear(2016, 2018);
     CriterionYear criterionYearTest5 = new CriterionYear(2020, 2021);
-    CriterionYear criterionYearTest6 = new CriterionYear(2020);
+    CriterionYear criterionYearTest6 = new CriterionYear(2020,0);
     CarClass car = new CarClass("BMW", "Serie 3", 2019, 123,
             4.9, 86500, "Diesel", 110, 6, 2019,
             "1CBF001", 24000);

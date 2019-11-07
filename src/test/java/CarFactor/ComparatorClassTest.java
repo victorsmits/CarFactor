@@ -15,22 +15,23 @@ class ComparatorClassTest extends ComparatorClass {
   void filter() {
 
     Map<String, Object> criteria = new HashMap<String, Object>();
-    criteria.put("buyYearMin", 2019);
-    criteria.put("buyYearMan", 2020);
+    criteria.put("buyYearMin", 2018);
+    criteria.put("buyYearMax", 2020);
     criteria.put("consumption",4.9);
     criteria.put("emission",123);
     criteria.put("fuel","Diesel");
-    criteria.put("mileage", 25000);
+    criteria.put("mileageMin", 23000);
+    criteria.put("mileageMax", 26000);
     criteria.put("norm",6);
-    criteria.put("powerMin",110);
-    criteria.put("powerMax",1);
+    criteria.put("powerMin",1);
+    criteria.put("powerMax",110);
     criteria.put("price",86500);
-    criteria.put("yearMin",2017);
-    criteria.put("yearMax",2019);
+    criteria.put("YearMin",2017);
+    criteria.put("YearMax",0);
 
     List<CarClass> cars = new ArrayList<CarClass>();
     List<CarClass> carsExpected = new ArrayList<CarClass>();
-    List<CarClass> carsResponse = new ArrayList<CarClass>();
+    List<CarClass> carsResponse;
 
     CarClass BM001 = new CarClass("BMW", "Serie 3", 2019, 123,
             4.9, 86500, "Diesel", 110, 6, 2019,
@@ -50,7 +51,7 @@ class ComparatorClassTest extends ComparatorClass {
 
     carsResponse = ComparatorClass.filter(cars, criteria);
 
-    assertEquals(cars, carsResponse);
+    assertEquals(carsExpected, carsResponse);
 
   }
 
