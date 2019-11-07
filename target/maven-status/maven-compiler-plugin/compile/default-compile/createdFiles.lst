@@ -1,0 +1,14 @@
+CarFactor/CriterionEmission.class
+CarFactor/CriterionMileage.class
+CarFactor/CriterionPower.class
+CarFactor/CarClass.class
+CarFactor/CriterionBuyYear.class
+CarFactor/CriterionFuel.class
+CarFactor/Criterion.class
+CarFactor/CriterionConsumption.class
+CarFactor/CriterionYear.class
+CarFactor/CriterionPrice.class
+CarFactor/CriterionNorm.class
+CarFactor/ComparatorClass.class
+CarFactor/CalculatorClass.class
+CarFactor/CarModelClass.class
