@@ -139,6 +139,6 @@ public class main {
   }
 
   private static void addCaToDatabase(){
-
+    //todo model selector
   }
 }
