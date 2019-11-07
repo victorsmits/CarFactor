@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: CarFactor.ComparatorClassTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in CarFactor.ComparatorClassTest
-filter  Time elapsed: 0.001 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: expected: <[CarFactor.CarClass@71623278]> but was: <[]>
-	at CarFactor.ComparatorClassTest.filter(ComparatorClassTest.java:54)
-
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in CarFactor.ComparatorClassTest

@@ -16,7 +16,7 @@ class CriterionYearTest {
     CriterionYear criterionYearTest3 = new CriterionYear(2016, 2019);
     CriterionYear criterionYearTest4 = new CriterionYear(2016, 2018);
     CriterionYear criterionYearTest5 = new CriterionYear(2020, 2021);
-    CriterionYear criterionYearTest6 = new CriterionYear(2020,0);
+    CriterionYear criterionYearTest6 = new CriterionYear(2020,2019);
     CarClass car = new CarClass("BMW", "Serie 3", 2019, 123,
             4.9, 86500, "Diesel", 110, 6, 2019,
             "1CBF001", 24000);
