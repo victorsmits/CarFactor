@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>CarFactor</OriginalElement>
+  <nodes>
+    <node x="1537.5" y="760.5">CarFactor.CriterionMileage</node>
+    <node x="-22.5" y="771.5">CarFactor.CriterionFuel</node>
+    <node x="1097.5" y="931.5">CarFactor.CriterionNorm</node>
+    <node x="537.5" y="949.5">CarFactor.CriterionYear</node>
+    <node x="-19.5" y="1225.5">CarFactor.CalculatorClass</node>
+    <node x="817.5" y="931.5">CarFactor.CriterionEmission</node>
+    <node x="257.5" y="813.5">CarFactor.Criterion</node>
+    <node x="895.0" y="-15.5">CarFactor.CarModelClass</node>
+    <node x="257.5" y="600.5">CarFactor.CriterionPower</node>
+    <node x="1376.5" y="960.5">CarFactor.CriterionBuyYear</node>
+    <node x="257.5" y="931.5">CarFactor.CriterionPrice</node>
+    <node x="520.0" y="600.5">CarFactor.CriterionConsumption</node>
+    <node x="307.0" y="50.5">CarFactor.CarClass</node>
+    <node x="-28.0" y="327.5">CarFactor.ComparatorClass</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="CarFactor.CriterionPower" target="CarFactor.Criterion">
+      <point x="0.0" y="79.5" />
+      <point x="0.0" y="-26.5" />
+    </edge>
+    <edge source="CarFactor.ComparatorClass" target="CarFactor.CarClass">
+      <point x="0.0" y="-112.5" />
+      <point x="0.0" y="69.5" />
+    </edge>
+    <edge source="CarFactor.CriterionYear" target="CarFactor.Criterion">
+      <point x="0.0" y="-90.5" />
+      <point x="640.0" y="860.0" />
+      <point x="102.5" y="20.0" />
+    </edge>
+    <edge source="CarFactor.CarClass" target="CarFactor.CarModelClass">
+      <point x="253.0" y="0.0" />
+      <point x="-225.0" y="0.0" />
+    </edge>
+    <edge source="CarFactor.CriterionMileage" target="CarFactor.Criterion">
+      <point x="-102.5" y="0.0" />
+      <point x="102.5" y="0.0" />
+    </edge>
+    <edge source="CarFactor.CriterionNorm" target="CarFactor.Criterion">
+      <point x="0.0" y="-68.5" />
+      <point x="1200.0" y="850.0" />
+      <point x="102.5" y="10.0" />
+    </edge>
+    <edge source="CarFactor.CriterionFuel" target="CarFactor.Criterion">
+      <point x="102.5" y="0.0" />
+      <point x="-102.5" y="0.0" />
+    </edge>
+    <edge source="CarFactor.CriterionConsumption" target="CarFactor.Criterion">
+      <point x="0.0" y="79.5" />
+      <point x="640.0" y="820.0" />
+      <point x="102.5" y="-20.0" />
+    </edge>
+    <edge source="CarFactor.CriterionEmission" target="CarFactor.Criterion">
+      <point x="0.0" y="-68.5" />
+      <point x="920.0" y="855.0" />
+      <point x="102.5" y="15.0" />
+    </edge>
+    <edge source="CarFactor.CriterionPrice" target="CarFactor.Criterion">
+      <point x="0.0" y="-68.5" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="CarFactor.CriterionBuyYear" target="CarFactor.Criterion">
+      <point x="0.0" y="-79.5" />
+      <point x="1480.0" y="845.0" />
+      <point x="102.5" y="5.0" />
+    </edge>
+  </edges>
+  <settings layout="Orthogonal" zoom="0.5062050947093403" x="857.5" y="739.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

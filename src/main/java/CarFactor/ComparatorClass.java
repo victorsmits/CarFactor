@@ -2,7 +2,7 @@ package CarFactor;
 
 import java.util.*;
 
-public class ComparatorClass {
+public class ComparatorClass extends CarClass {
   private List<CarClass> carsList;
   private Map<String, Object> criteria = new HashMap<String, Object>();
 
