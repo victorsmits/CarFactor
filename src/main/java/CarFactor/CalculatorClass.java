@@ -1,13 +1,12 @@
 package CarFactor;
 
 public class CalculatorClass {
-    private static double essencePrice = 1.479;
-    private static double dieselPrice = 0; //?
-    private static double electricityPrice = 0; //?
-    private static int averageMileage = 15151;
+    private static double essencePrice = 1.479; // €/L
+    private static double dieselPrice = 1.55;
+    private static double electricityPrice = 0.1524; // €/kWh
+    private static int averageMileage = 15151; //data from 2015
 
-    public CalculatorClass() {
-    }
+    public CalculatorClass() {}
 
     public static double insuranceCost(int catalogValue, int power){
         /**
@@ -101,24 +100,20 @@ public class CalculatorClass {
     public static double annualCost(int catalogValue, int power, double emission, String fuel, double consumption){
         /**
          * Returns the annual cost of the car for an average citizen.
-         * All arguments must be positive ; fuel is either "essence", "diesel" or "electric".
-         * Average mileage per year in Belgium is 15151km (data from 2015)
-         * Price for : - essence is 1.479 €/L
-         *             - diesel is 1.55 €/L
-         *             - electricity is 0.1524 €/kWh
+         * All arguments must be positive ; fuel is either "essence", "diesel" or "electric"
          */
         double taxCost = taxCost(power, emission);
         double insuranceCost = insuranceCost(catalogValue, power);
-        double fuelConsumption = consumption * (15151/100); //liter per year
+        double fuelConsumption = consumption * (averageMileage/100); //liter per year
         double fuelCost = 0;
         if (fuel == "essence"){
-            fuelCost = fuelConsumption * 1.479;
+            fuelCost = fuelConsumption * essencePrice;
         }
         else if (fuel == "diesel"){
-            fuelCost = fuelConsumption * 1.55;
+            fuelCost = fuelConsumption * dieselPrice;
         }
         else if (fuel == "electric"){
-            fuelCost = fuelConsumption * 0.1524;
+            fuelCost = fuelConsumption * electricityPrice;
         }
         else{
             throw new IllegalArgumentException(String.format("Fuel type \'%s\' does not exist",
