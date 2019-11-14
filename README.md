@@ -1,6 +1,11 @@
 ###### Denis Maxime 
 ###### Smits Victor 
-###### Tourneur Bernard 
+###### Tourneur Bernard
+
+|Analysed by :
+Kassabeh Zakariya
+El Haddadi Yassine
+El Bakkoury Yassine
 
 # Car Factor
 Determine minimal values for several car characteristics such as energy efficiency, annual cost, cost of purchase, energy consumption etc, based on a given database. 
