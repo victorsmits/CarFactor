@@ -36,4 +36,4 @@ respectively. The generated files are .html files and can be found in the [targe
 ### Execution flow
 
 ### State of progress
-To check the state of progress (french) : [StateOfProgress]
+To check the state of progress (french) : [State of Progress](StateOfProgess.docx)
