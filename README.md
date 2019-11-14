@@ -35,3 +35,5 @@ Jdepend and checkstyle are used to generate reports about metrics and style qual
 respectively. The generated files are .html files and can be found in the [target/site](target/site) folder.
 ### Execution flow
 
+### State of progress
+To check the state of progress (french) : [StateOfProgress]
