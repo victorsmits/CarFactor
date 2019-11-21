@@ -62,10 +62,9 @@ public class ComparatorClass {
 
   /** Fix PMD : Avoid unused private methods such as 'cutString()'.
    * private List<String> cutString (){
-  *      List<String> listCriteria = new ArrayList<String>();
-  *      return listCriteria;
-  *  }
-  */
+   * List<String> listCriteria = new ArrayList<String>();
+   * return listCriteria;}
+   */
     public List<CarClass> comparator(String chain){
         List<CarClass> carList = new ArrayList<CarClass>();
 
