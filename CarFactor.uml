@@ -1,56 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Diagram>
   <ID>JAVA</ID>
-  <OriginalElement>CarFactor</OriginalElement>
+  <OriginalElement>carFactor</OriginalElement>
   <nodes>
-    <node x="1387.0" y="673.0">CarFactor.CriterionMileage</node>
-    <node x="709.9999999999999" y="684.0">CarFactor.CriterionFuel</node>
-    <node x="1612.0" y="684.0">CarFactor.CriterionNorm</node>
-    <node x="1162.0" y="673.0">CarFactor.CriterionYear</node>
-    <node x="0.0" y="1138.0">CarFactor.CalculatorClass</node>
-    <node x="484.9999999999999" y="684.0">CarFactor.CriterionEmission</node>
-    <node x="879.4999999999999" y="540.0">CarFactor.Criterion</node>
-    <node x="869.9999999999999" y="0.0">CarFactor.CarModelClass</node>
-    <node x="1837.0" y="673.0">CarFactor.CriterionPower</node>
-    <node x="934.9999999999999" y="673.0">CarFactor.CriterionBuyYear</node>
-    <node x="259.9999999999999" y="684.0">CarFactor.CriterionPrice</node>
-    <node x="0.0" y="673.0">CarFactor.CriterionConsumption</node>
-    <node x="841.9999999999999" y="321.0">CarFactor.CarClass</node>
-    <node x="505.6967592592591" y="952.0">CarFactor.ComparatorClass</node>
+    <node x="1387.0" y="673.0">carFactor.CriterionMileage</node>
+    <node x="709.9999999999999" y="684.0">carFactor.CriterionFuel</node>
+    <node x="1612.0" y="684.0">carFactor.CriterionNorm</node>
+    <node x="1162.0" y="673.0">carFactor.CriterionYear</node>
+    <node x="0.0" y="1138.0">carFactor.CalculatorClass</node>
+    <node x="484.9999999999999" y="684.0">carFactor.CriterionEmission</node>
+    <node x="879.4999999999999" y="540.0">carFactor.Criterion</node>
+    <node x="869.9999999999999" y="0.0">carFactor.CarModelClass</node>
+    <node x="1837.0" y="673.0">carFactor.CriterionPower</node>
+    <node x="934.9999999999999" y="673.0">carFactor.CriterionBuyYear</node>
+    <node x="259.9999999999999" y="684.0">carFactor.CriterionPrice</node>
+    <node x="0.0" y="673.0">carFactor.CriterionConsumption</node>
+    <node x="841.9999999999999" y="321.0">carFactor.CarClass</node>
+    <node x="505.6967592592591" y="952.0">carFactor.ComparatorClass</node>
   </nodes>
   <notes />
   <edges>
-    <edge source="CarFactor.ComparatorClass" target="CarFactor.CriterionEmission">
+    <edge source="carFactor.ComparatorClass" target="carFactor.CriterionEmission">
       <point x="-309.473684210526" y="-70.5" />
       <point x="784.2230750487331" y="892.0" />
       <point x="536.2499999999999" y="892.0" />
       <point x="-51.25" y="68.5" />
     </edge>
-    <edge source="CarFactor.CriterionPower" target="CarFactor.Criterion">
+    <edge source="carFactor.CriterionPower" target="carFactor.Criterion">
       <point x="-51.25" y="-79.5" />
       <point x="1888.25" y="613.0" />
       <point x="1073.1111111111109" y="613.0" />
       <point x="91.11111111111109" y="26.5" />
     </edge>
-    <edge source="CarFactor.Criterion" target="CarFactor.CarClass">
+    <edge source="carFactor.Criterion" target="carFactor.CarClass">
       <point x="0.0" y="-26.5" />
       <point x="981.9999999999999" y="520.0" />
       <point x="1049.0" y="520.0" />
       <point x="-46.0" y="69.5" />
     </edge>
-    <edge source="CarFactor.CriterionPower" target="CarFactor.CarClass">
+    <edge source="carFactor.CriterionPower" target="carFactor.CarClass">
       <point x="51.25" y="-79.5" />
       <point x="1990.75" y="490.0" />
       <point x="1279.0" y="490.0" />
       <point x="184.0" y="69.5" />
     </edge>
-    <edge source="CarFactor.ComparatorClass" target="CarFactor.CriterionBuyYear">
+    <edge source="carFactor.ComparatorClass" target="carFactor.CriterionBuyYear">
       <point x="-61.8947368421052" y="-70.5" />
       <point x="1031.802022417154" y="932.0" />
       <point x="986.7499999999999" y="932.0" />
       <point x="-51.75" y="79.5" />
     </edge>
-    <edge source="CarFactor.ComparatorClass" target="CarFactor.CarClass">
+    <edge source="carFactor.ComparatorClass" target="carFactor.CarClass">
       <point x="557.0526315789473" y="-70.5" />
       <point x="1650.7493908382064" y="932.0" />
       <point x="2052.5" y="932.0" />
@@ -58,145 +58,145 @@
       <point x="1325.0" y="480.0" />
       <point x="230.0" y="69.5" />
     </edge>
-    <edge source="CarFactor.CriterionYear" target="CarFactor.Criterion">
+    <edge source="carFactor.CriterionYear" target="carFactor.Criterion">
       <point x="-51.25" y="-79.5" />
       <point x="1213.25" y="643.0" />
       <point x="1004.7777777777777" y="643.0" />
       <point x="22.77777777777783" y="26.5" />
     </edge>
-    <edge source="CarFactor.CarClass" target="CarFactor.CarModelClass">
+    <edge source="carFactor.CarClass" target="carFactor.CarModelClass">
       <point x="126.5" y="-69.5" />
       <point x="1221.5" y="296.0" />
       <point x="1207.5" y="296.0" />
       <point x="112.5" y="135.5" />
     </edge>
-    <edge source="CarFactor.ComparatorClass" target="CarFactor.CriterionConsumption">
+    <edge source="carFactor.ComparatorClass" target="carFactor.CriterionConsumption">
       <point x="-495.1578947368416" y="-70.5" />
       <point x="598.5388645224175" y="922.0" />
       <point x="180.0000000000001" y="922.0" />
       <point x="60.000000000000114" y="79.5" />
     </edge>
-    <edge source="CarFactor.CriterionEmission" target="CarFactor.CarClass">
+    <edge source="carFactor.CriterionEmission" target="carFactor.CarClass">
       <point x="-51.25" y="-68.5" />
       <point x="536.2499999999999" y="500.0" />
       <point x="956.9999999999999" y="500.0" />
       <point x="-138.0" y="69.5" />
     </edge>
-    <edge source="CarFactor.CriterionMileage" target="CarFactor.Criterion">
+    <edge source="carFactor.CriterionMileage" target="carFactor.Criterion">
       <point x="-51.25" y="-79.5" />
       <point x="1438.25" y="633.0" />
       <point x="1027.5555555555557" y="633.0" />
       <point x="45.55555555555566" y="26.5" />
     </edge>
-    <edge source="CarFactor.CriterionPrice" target="CarFactor.CarClass">
+    <edge source="carFactor.CriterionPrice" target="carFactor.CarClass">
       <point x="-51.25" y="-68.5" />
       <point x="311.2499999999999" y="490.0" />
       <point x="910.9999999999999" y="490.0" />
       <point x="-184.0" y="69.5" />
     </edge>
-    <edge source="CarFactor.ComparatorClass" target="CarFactor.CriterionPrice">
+    <edge source="carFactor.ComparatorClass" target="carFactor.CriterionPrice">
       <point x="-371.3684210526312" y="-70.5" />
       <point x="722.3283382066279" y="902.0" />
       <point x="413.7499999999999" y="902.0" />
       <point x="51.25" y="68.5" />
     </edge>
-    <edge source="CarFactor.ComparatorClass" target="CarFactor.CriterionPower">
+    <edge source="carFactor.ComparatorClass" target="carFactor.CriterionPower">
       <point x="433.26315789473665" y="-70.5" />
       <point x="1526.9599171539958" y="912.0" />
       <point x="1888.25" y="912.0" />
       <point x="-51.25" y="79.5" />
     </edge>
-    <edge source="CarFactor.CriterionNorm" target="CarFactor.Criterion">
+    <edge source="carFactor.CriterionNorm" target="carFactor.Criterion">
       <point x="-51.25" y="-68.5" />
       <point x="1663.25" y="623.0" />
       <point x="1050.333333333333" y="623.0" />
       <point x="68.33333333333326" y="26.5" />
     </edge>
-    <edge source="CarFactor.CriterionMileage" target="CarFactor.CarClass">
+    <edge source="carFactor.CriterionMileage" target="carFactor.CarClass">
       <point x="51.25" y="-79.5" />
       <point x="1540.75" y="510.0" />
       <point x="1187.0" y="510.0" />
       <point x="92.0" y="69.5" />
     </edge>
-    <edge source="CarFactor.CriterionFuel" target="CarFactor.Criterion">
+    <edge source="carFactor.CriterionFuel" target="carFactor.Criterion">
       <point x="51.25" y="-68.5" />
       <point x="863.7499999999999" y="653.0" />
       <point x="959.2222222222221" y="653.0" />
       <point x="-22.77777777777783" y="26.5" />
     </edge>
-    <edge source="CarFactor.CriterionNorm" target="CarFactor.CarClass">
+    <edge source="carFactor.CriterionNorm" target="carFactor.CarClass">
       <point x="51.25" y="-68.5" />
       <point x="1765.75" y="500.0" />
       <point x="1233.0" y="500.0" />
       <point x="138.0" y="69.5" />
     </edge>
-    <edge source="CarFactor.CriterionConsumption" target="CarFactor.Criterion">
+    <edge source="carFactor.CriterionConsumption" target="carFactor.Criterion">
       <point x="60.000000000000114" y="-79.5" />
       <point x="180.0000000000001" y="623.0" />
       <point x="890.8888888888888" y="623.0" />
       <point x="-91.11111111111109" y="26.5" />
     </edge>
-    <edge source="CarFactor.CriterionEmission" target="CarFactor.Criterion">
+    <edge source="carFactor.CriterionEmission" target="carFactor.Criterion">
       <point x="51.25" y="-68.5" />
       <point x="638.7499999999999" y="643.0" />
       <point x="936.4444444444442" y="643.0" />
       <point x="-45.55555555555566" y="26.5" />
     </edge>
-    <edge source="CarFactor.CriterionFuel" target="CarFactor.CarClass">
+    <edge source="carFactor.CriterionFuel" target="carFactor.CarClass">
       <point x="-51.25" y="-68.5" />
       <point x="761.2499999999999" y="510.0" />
       <point x="1002.9999999999999" y="510.0" />
       <point x="-92.0" y="69.5" />
     </edge>
-    <edge source="CarFactor.ComparatorClass" target="CarFactor.CriterionNorm">
+    <edge source="carFactor.ComparatorClass" target="carFactor.CriterionNorm">
       <point x="371.36842105263145" y="-70.5" />
       <point x="1465.0651803118906" y="902.0" />
       <point x="1765.75" y="902.0" />
       <point x="51.25" y="68.5" />
     </edge>
-    <edge source="CarFactor.ComparatorClass" target="CarFactor.CriterionMileage">
+    <edge source="carFactor.ComparatorClass" target="carFactor.CriterionMileage">
       <point x="247.57894736842104" y="-70.5" />
       <point x="1341.2757066276802" y="882.0" />
       <point x="1540.75" y="882.0" />
       <point x="51.25" y="79.5" />
     </edge>
-    <edge source="CarFactor.ComparatorClass" target="CarFactor.CriterionYear">
+    <edge source="carFactor.ComparatorClass" target="carFactor.CriterionYear">
       <point x="61.8947368421052" y="-70.5" />
       <point x="1155.5914961013643" y="852.0" />
       <point x="1213.25" y="852.0" />
       <point x="-51.25" y="79.5" />
     </edge>
-    <edge source="CarFactor.CriterionPrice" target="CarFactor.Criterion">
+    <edge source="carFactor.CriterionPrice" target="carFactor.Criterion">
       <point x="51.25" y="-68.5" />
       <point x="413.7499999999999" y="633.0" />
       <point x="913.6666666666665" y="633.0" />
       <point x="-68.33333333333337" y="26.5" />
     </edge>
-    <edge source="CarFactor.CriterionYear" target="CarFactor.CarClass">
+    <edge source="carFactor.CriterionYear" target="carFactor.CarClass">
       <point x="51.25" y="-79.5" />
       <point x="1315.75" y="520.0" />
       <point x="1141.0" y="520.0" />
       <point x="46.0" y="69.5" />
     </edge>
-    <edge source="CarFactor.CriterionBuyYear" target="CarFactor.Criterion">
+    <edge source="carFactor.CriterionBuyYear" target="carFactor.Criterion">
       <point x="-51.75" y="-79.5" />
       <point x="986.7499999999999" y="653.0" />
       <point x="981.9999999999999" y="653.0" />
       <point x="0.0" y="26.5" />
     </edge>
-    <edge source="CarFactor.ComparatorClass" target="CarFactor.CriterionFuel">
+    <edge source="carFactor.ComparatorClass" target="carFactor.CriterionFuel">
       <point x="-185.6842105263156" y="-70.5" />
       <point x="908.0125487329435" y="872.0" />
       <point x="761.2499999999999" y="872.0" />
       <point x="-51.25" y="68.5" />
     </edge>
-    <edge source="CarFactor.CriterionBuyYear" target="CarFactor.CarClass">
+    <edge source="carFactor.CriterionBuyYear" target="carFactor.CarClass">
       <point x="51.75" y="-79.5" />
       <point x="1090.25" y="653.0" />
       <point x="1095.0" y="653.0" />
       <point x="0.0" y="69.5" />
     </edge>
-    <edge source="CarFactor.CriterionConsumption" target="CarFactor.CarClass">
+    <edge source="carFactor.CriterionConsumption" target="carFactor.CarClass">
       <point x="-60.0" y="-79.5" />
       <point x="60.0" y="480.0" />
       <point x="864.9999999999999" y="480.0" />
@@ -205,7 +205,7 @@
   </edges>
   <settings layout="Tree" zoom="0.6678346180798879" x="1026.5" y="703.5" />
   <SelectedNodes>
-    <node>CarFactor.CriterionMileage</node>
+    <node>carFactor.CriterionMileage</node>
   </SelectedNodes>
   <Categories>
     <Category>Fields</Category>

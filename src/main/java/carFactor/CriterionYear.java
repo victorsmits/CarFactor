@@ -1,4 +1,4 @@
-package CarFactor;
+package carFactor;
 
 public class CriterionYear extends Criterion {
 
