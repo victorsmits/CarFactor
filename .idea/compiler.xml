@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="carfactor" />
+        <module name="CarFactor" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="carfactor" target="1.8" />
+      <module name="CarFactor" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
