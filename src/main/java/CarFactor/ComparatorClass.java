@@ -56,13 +56,13 @@ public class ComparatorClass {
             price.isValid(car) && fuel.isValid(car) && year.isValid(car);
   }
 
-  /**Fix PMD : Avoid unused method parameters such as 'chain'.
-   * private List<String> cutString(String chain){
-   * Fix PMD : Avoid unused private methods such as 'cutString()'.
-   * private List<String> cutString (){
-   * List<String> listCriteria = new ArrayList<String>();
-   * return listCriteria;}
-   */
+  //Fix PMD : Avoid unused method parameters such as 'chain'.
+   //private List<String> cutString(String chain){
+   //Fix PMD : Avoid unused private methods such as 'cutString()'.
+   //private List<String> cutString (){
+   //List<String> listCriteria = new ArrayList<String>();
+   // return listCriteria;}
+   //
     public List<CarClass> comparator(String chain){
         List<CarClass> carList = new ArrayList<CarClass>();
 
