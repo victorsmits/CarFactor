@@ -4,7 +4,8 @@ package carFactor;
 
 public class Criterion {
 
-  public boolean isValid(CarClass car){
+  public boolean isValid(CarClass car)
+  {
     return false;
   }
 }
