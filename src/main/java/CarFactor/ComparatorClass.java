@@ -49,7 +49,10 @@ public class ComparatorClass {
             price.isValid(car) && fuel.isValid(car) && year.isValid(car));
   }
 
-  private List<String> cutString(String chain){
+  /**Fix PMD : Avoid unused method parameters such as 'chain'.
+   * private List<String> cutString(String chain){
+   **/
+  private List<String> cutString{
         List<String> listCriteria = new ArrayList<String>();
         return listCriteria;
     }
@@ -57,7 +60,9 @@ public class ComparatorClass {
     public List<CarClass> comparator(String chain){
         List<CarClass> carList = new ArrayList<CarClass>();
 
-        List<String> listCriteria = cutString(chain);
+      /** Fix PMD : Avoid unused local variables such as 'listCriteria'.
+       *         List<String> listCriteria = cutString(chain);
+       */
 
         return carList;
     }
