@@ -1,4 +1,4 @@
-package carFactor;
+package CarFactor;
 
 import java.util.*;
 

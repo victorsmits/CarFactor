@@ -1,4 +1,4 @@
-package carFactor;
+package CarFactor;
 
 public class CalculatorClass {
     private static double essencePrice = 1.479; // €/L
