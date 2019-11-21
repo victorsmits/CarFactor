@@ -138,8 +138,8 @@ public class main {
 
     return criteriaList;
   }
-
-  private static void addCaToDatabase(){
+  /**Fix PMD warning: Avoid unused private methods such as 'addCaToDatabase()'.
+   * private static void addCaToDatabase(){
     // TODO
-  }
+  }**/
 }
