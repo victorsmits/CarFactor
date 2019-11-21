@@ -1,4 +1,4 @@
-package carFactor;
+package carfactor;
 
 public class CarModelClass {
     private String brand;

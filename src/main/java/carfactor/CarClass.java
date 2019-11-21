@@ -1,4 +1,4 @@
-package carFactor;
+package carfactor;
 
 public class CarClass extends CarModelClass{
   private int buyYear;
