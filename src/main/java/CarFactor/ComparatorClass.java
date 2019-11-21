@@ -44,9 +44,15 @@ public class ComparatorClass {
                                       CriterionNorm norm, CriterionPower power,
                                       CriterionPrice price, CriterionYear year,
                                       CriterionFuel fuel, CarClass car) {
-    return (buyYear.isValid(car) && consumption.isValid(car) && emission.isValid(car) &&
+    /**
+     * fix PMD:UselessParentheses
+     * return (buyYear.isValid(car) && consumption.isValid(car) && emission.isValid(car) &&
+     *             mileage.isValid(car) && norm.isValid(car) && power.isValid(car) &&
+     *             price.isValid(car) && fuel.isValid(car) && year.isValid(car));
+     */
+    return buyYear.isValid(car) && consumption.isValid(car) && emission.isValid(car) &&
             mileage.isValid(car) && norm.isValid(car) && power.isValid(car) &&
-            price.isValid(car) && fuel.isValid(car) && year.isValid(car));
+            price.isValid(car) && fuel.isValid(car) && year.isValid(car);
   }
 
   private List<String> cutString(String chain){

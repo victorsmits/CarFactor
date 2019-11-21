@@ -19,7 +19,12 @@ public class CalculatorClass {
         if (catalogValue < 0 || power < 0){
             throw new IllegalArgumentException();
         }
-        double insurancePrice = 12*((power*catalogValue/110000)+2);
+        /**
+         * fix PMD:UselessParentheses
+         * double insurancePrice = 12*((power*catalogValue/110000)+2);
+         */
+        double insurancePrice = 12*(power*catalogValue/110000+2);
+
         //Cut off erratic values ; formula is (kind of) valid within a certain range of prices
         if (insurancePrice < 240){
             insurancePrice = 240;
@@ -55,7 +60,11 @@ public class CalculatorClass {
                             1618.58,
                             1877.96,
                             2138.00};
-        double fiscalPower = (emission/45) + (power/40)*1.6;
+        /**
+         * fix PMD:UselessParentheses
+         * double fiscalPower = (emission/45) + (power/40)*1.6;
+         */
+        double fiscalPower = emission/45 + power/40*1.6;
         int FP = (int)(fiscalPower - (fiscalPower % 1)); //integer division => rounded to the inferior
         if (FP <= 4){
             taxPrice = 83.56;

@@ -80,6 +80,7 @@ public class main {
       System.out.println("IO error trying to read your input!\r\n");
       System.exit(1);
     }
+    System.out.println(criteria);
   }
 
   private static List<CarClass> filterCar(Map<String, Object> criteria) {
