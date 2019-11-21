@@ -74,7 +74,7 @@ public class main {
       switch (input){
         case 1: criteria = addCriteria();
         //case 2: addCaToDatabase();
-        //case 3: filterCar(criteria);
+        case 3: filterCar(criteria);
       }
     } catch (IOException ioe) {
       System.out.println("IO error trying to read your input!\r\n");
