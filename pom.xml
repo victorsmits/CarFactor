@@ -9,7 +9,7 @@
     <artifactId>CarFactor</artifactId>
     <packaging>jar</packaging>
     <version>1.0-SNAPSHOT</version>
-    <name>CarFactor</name>
+    <name>carFactor</name>
     <url>http://maven.apache.org</url>
     <build>
         <plugins>
