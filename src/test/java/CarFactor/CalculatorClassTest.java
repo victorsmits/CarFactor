@@ -51,6 +51,7 @@ class CalculatorClassTest {
                   "");
     assertEquals(12.9, CalculatorClass.energyConsumption("diesel", 1));
     assertEquals(1, CalculatorClass.energyConsumption("electric", 1));
+    assertEquals(2, CalculatorClass.energyConsumption("electric", 2));
   }
 
   @Test
