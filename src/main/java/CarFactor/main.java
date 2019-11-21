@@ -73,7 +73,7 @@ public class main {
       }
       switch (input){
         case 1: criteria = addCriteria();
-        case 2: addCaToDatabase();
+        //case 2: addCaToDatabase();
         case 3: filterCar(criteria);
       }
     } catch (IOException ioe) {
@@ -96,49 +96,50 @@ public class main {
     System.out.println("Add minimum buy year:");
     criteriaList.put("buyYearMin", Integer.parseInt(br.readLine()));
 
-//    System.out.println("Add maximum buy year [default no maximum]:");
-//    if(br.readLine().equals(""))
-//      criteriaList.put("buyYearMax", 0);
-//    else
-//      criteriaList.put("buyYearMax", Integer.parseInt(br.readLine()));
-//
-//    System.out.println("Add consumption:");
-//    criteriaList.put("consumption",Integer.parseInt(br.readLine()));
-//
-//    System.out.println("Add emission:");
-//    criteriaList.put("emission",Integer.parseInt(br.readLine()));
-//
-//    System.out.println("Add fuel type:");
-//    criteriaList.put("fuel",br.readLine());
-//
-//    System.out.println("Add minimum mileage:");
-//    criteriaList.put("mileageMin", Integer.parseInt(br.readLine()));
-//
-//    System.out.println("Add maximum mileage:");
-//    criteriaList.put("mileageMax", Integer.parseInt(br.readLine()));
-//
-//    System.out.println("Add norm:");
-//    criteriaList.put("norm",Integer.parseInt(br.readLine()));
-//
-//    System.out.println("Add minimum power:");
-//    criteriaList.put("powerMin",Integer.parseInt(br.readLine()));
-//
-//    System.out.println("Add maximum power:");
-//    criteriaList.put("powerMax",Integer.parseInt(br.readLine()));
-//
-//    System.out.println("Add price:");
-//    criteriaList.put("price",Integer.parseInt(br.readLine()));
-//
-//    System.out.println("Add minimum year:");
-//    criteriaList.put("YearMin",Integer.parseInt(br.readLine()));
-//
-//    System.out.println("Add maximum year:");
-//    criteriaList.put("YearMax",Integer.parseInt(br.readLine()));
+    System.out.println("Add maximum buy year [default no maximum]:");
+    if(br.readLine().equals(""))
+      criteriaList.put("buyYearMax", 0);
+    else
+     criteriaList.put("buyYearMax", Integer.parseInt(br.readLine()));
+
+    System.out.println("Add consumption:");
+    //criteriaList.put("consumption",Integer.parseInt(br.readLine()));
+    //Fix : int --> double
+    criteriaList.put("consumption",Double.parseDouble(br.readLine()));
+
+    System.out.println("Add emission:");
+    criteriaList.put("emission",Integer.parseInt(br.readLine()));
+
+    System.out.println("Add fuel type:");
+    criteriaList.put("fuel",br.readLine());
+
+    System.out.println("Add minimum mileage:");
+    criteriaList.put("mileageMin", Integer.parseInt(br.readLine()));
+
+    System.out.println("Add maximum mileage:");
+    criteriaList.put("mileageMax", Integer.parseInt(br.readLine()));
+
+    System.out.println("Add norm:");
+    criteriaList.put("norm",Integer.parseInt(br.readLine()));
+
+    System.out.println("Add minimum power:");
+    criteriaList.put("powerMin",Integer.parseInt(br.readLine()));
+
+    System.out.println("Add maximum power:");
+    criteriaList.put("powerMax",Integer.parseInt(br.readLine()));
+
+    System.out.println("Add price:");
+    criteriaList.put("price",Integer.parseInt(br.readLine()));
+
+    System.out.println("Add minimum year:");
+    criteriaList.put("YearMin",Integer.parseInt(br.readLine()));
+    System.out.println("Add maximum year:");
+    criteriaList.put("YearMax",Integer.parseInt(br.readLine()));
 
     return criteriaList;
   }
 
   private static void addCaToDatabase(){
-    //todo model selector
+    // TODO
   }
 }
