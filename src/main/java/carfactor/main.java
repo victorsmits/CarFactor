@@ -11,6 +11,7 @@ import java.io.InputStreamReader;
 import java.util.*;
 
 public class main {
+  private CalculatorClass test = new CalculatorClass();
   private static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
   private static Map<String,CarModelClass> mapCarModel;
   //test
