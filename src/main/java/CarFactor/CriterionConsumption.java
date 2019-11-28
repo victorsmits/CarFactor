@@ -1,4 +1,4 @@
-package carFactor;
+package CarFactor;
 
 public class CriterionConsumption extends Criterion {
 
