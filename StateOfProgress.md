@@ -4,7 +4,7 @@
 # Etat d&#39;avancement du projet
 
 <<<<<<< HEAD
-# carfactor
+# CarFactor
 =======
 # CarFactor
 >>>>>>> parent of af9d056... Test
