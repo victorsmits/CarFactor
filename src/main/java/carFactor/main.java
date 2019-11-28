@@ -1,4 +1,4 @@
-package carfactor;
+package carFactor;
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
@@ -13,7 +13,7 @@ import java.util.*;
 public class main {
   private static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
   private static Map<String,CarModelClass> mapCarModel;
-  //test
+
   public static void main(String[] args) {
     Map<String, Object> criteria = new HashMap<String, Object>();
 

@@ -22,7 +22,7 @@ an adequate IDE (java xxx??? compatible).
 This is a console application. All instructions about setting parameters and filters are printed during
 the execution. 
 ## Architecture
-The core code lives in the [src/main/java/carfactor/main.java](src/main/java/carfactor/main.java) file. 
+The core code lives in the [src/main/java/carFactor/main.java](src/main/java/carFactor/main.java) file. 
 Functionnalities are declared in different classes, located in the same folder.
 Each criteria is a separate class, child of the "Criterion" superclass. 
 

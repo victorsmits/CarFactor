@@ -1,4 +1,4 @@
-package carfactor;
+package carFactor;
 
 public class CriterionEmission extends Criterion {
 

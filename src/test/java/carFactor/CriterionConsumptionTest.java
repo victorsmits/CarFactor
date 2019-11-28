@@ -1,5 +1,5 @@
 
-package carfactor;
+package carFactor;
 
 import org.junit.jupiter.api.Test;
 

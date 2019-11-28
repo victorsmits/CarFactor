@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<JDepend>
+    <Packages>
+
+        <Package name="carFactor">
+            <Stats>
+                <TotalClasses>15</TotalClasses>
+                <ConcreteClasses>15</ConcreteClasses>
+                <AbstractClasses>0</AbstractClasses>
+                <Ca>0</Ca>
+                <Ce>5</Ce>
+                <A>0</A>
+                <I>1</I>
+                <D>0</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+                <Class sourceFile="CalculatorClass.java">
+                    carFactor.CalculatorClass
+                </Class>
+                <Class sourceFile="CarClass.java">
+                    carFactor.CarClass
+                </Class>
+                <Class sourceFile="CarModelClass.java">
+                    carFactor.CarModelClass
+                </Class>
+                <Class sourceFile="ComparatorClass.java">
+                    carFactor.ComparatorClass
+                </Class>
+                <Class sourceFile="Criterion.java">
+                    carFactor.Criterion
+                </Class>
+                <Class sourceFile="CriterionBuyYear.java">
+                    carFactor.CriterionBuyYear
+                </Class>
+                <Class sourceFile="CriterionConsumption.java">
+                    carFactor.CriterionConsumption
+                </Class>
+                <Class sourceFile="CriterionEmission.java">
+                    carFactor.CriterionEmission
+                </Class>
+                <Class sourceFile="CriterionFuel.java">
+                    carFactor.CriterionFuel
+                </Class>
+                <Class sourceFile="CriterionMileage.java">
+                    carFactor.CriterionMileage
+                </Class>
+                <Class sourceFile="CriterionNorm.java">
+                    carFactor.CriterionNorm
+                </Class>
+                <Class sourceFile="CriterionPower.java">
+                    carFactor.CriterionPower
+                </Class>
+                <Class sourceFile="CriterionPrice.java">
+                    carFactor.CriterionPrice
+                </Class>
+                <Class sourceFile="CriterionYear.java">
+                    carFactor.CriterionYear
+                </Class>
+                <Class sourceFile="main.java">
+                    carFactor.main
+                </Class>
+            </ConcreteClasses>
+
+            <DependsUpon>
+                <Package>java.io</Package>
+                <Package>java.lang</Package>
+                <Package>java.util</Package>
+                <Package>org.json.simple</Package>
+                <Package>org.json.simple.parser</Package>
+            </DependsUpon>
+
+            <UsedBy>
+            </UsedBy>
+        </Package>
+
+        <Package name="java.io">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="java.lang">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="java.util">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="org.json.simple">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="org.json.simple.parser">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+    </Packages>
+
+    <Cycles>
+    </Cycles>
+</JDepend>

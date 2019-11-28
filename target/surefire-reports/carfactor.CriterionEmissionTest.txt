@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: carfactor.CriterionEmissionTest
+Test set: carFactor.CriterionEmissionTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in carfactor.CriterionEmissionTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in carFactor.CriterionEmissionTest
