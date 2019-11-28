@@ -1,11 +1,11 @@
-/Users/victorsmits/Dropbox/ECAM/MIN 4/Architecture and software quality/CarFactor/src/test/java/CarFactor/ComparatorClassTest.java
-/Users/victorsmits/Dropbox/ECAM/MIN 4/Architecture and software quality/CarFactor/src/test/java/CarFactor/CriterionEmissionTest.java
-/Users/victorsmits/Dropbox/ECAM/MIN 4/Architecture and software quality/CarFactor/src/test/java/CarFactor/CriterionBuyYearTest.java
-/Users/victorsmits/Dropbox/ECAM/MIN 4/Architecture and software quality/CarFactor/src/test/java/CarFactor/CriterionYearTest.java
-/Users/victorsmits/Dropbox/ECAM/MIN 4/Architecture and software quality/CarFactor/src/test/java/CarFactor/CriterionConsumptionTest.java
-/Users/victorsmits/Dropbox/ECAM/MIN 4/Architecture and software quality/CarFactor/src/test/java/CarFactor/CriterionFuelTest.java
-/Users/victorsmits/Dropbox/ECAM/MIN 4/Architecture and software quality/CarFactor/src/test/java/CarFactor/CriterionPowerTest.java
-/Users/victorsmits/Dropbox/ECAM/MIN 4/Architecture and software quality/CarFactor/src/test/java/CarFactor/CriterionMileageTest.java
-/Users/victorsmits/Dropbox/ECAM/MIN 4/Architecture and software quality/CarFactor/src/test/java/CarFactor/CalculatorClassTest.java
-/Users/victorsmits/Dropbox/ECAM/MIN 4/Architecture and software quality/CarFactor/src/test/java/CarFactor/CriterionPriceTest.java
-/Users/victorsmits/Dropbox/ECAM/MIN 4/Architecture and software quality/CarFactor/src/test/java/CarFactor/CriterionNormTest.java
+C:\Users\malek\OneDrive\Bureau\CarFactor-master\src\test\java\carfactor\CriterionPriceTest.java
+C:\Users\malek\OneDrive\Bureau\CarFactor-master\src\test\java\carfactor\CriterionFuelTest.java
+C:\Users\malek\OneDrive\Bureau\CarFactor-master\src\test\java\carfactor\ComparatorClassTest.java
+C:\Users\malek\OneDrive\Bureau\CarFactor-master\src\test\java\carfactor\CriterionConsumptionTest.java
+C:\Users\malek\OneDrive\Bureau\CarFactor-master\src\test\java\carfactor\CriterionYearTest.java
+C:\Users\malek\OneDrive\Bureau\CarFactor-master\src\test\java\carfactor\CriterionBuyYearTest.java
+C:\Users\malek\OneDrive\Bureau\CarFactor-master\src\test\java\carfactor\CriterionNormTest.java
+C:\Users\malek\OneDrive\Bureau\CarFactor-master\src\test\java\carfactor\CalculatorClassTest.java
+C:\Users\malek\OneDrive\Bureau\CarFactor-master\src\test\java\carfactor\CriterionEmissionTest.java
+C:\Users\malek\OneDrive\Bureau\CarFactor-master\src\test\java\carfactor\CriterionMileageTest.java
+C:\Users\malek\OneDrive\Bureau\CarFactor-master\src\test\java\carfactor\CriterionPowerTest.java

@@ -3,7 +3,7 @@
 #
 # Etat d&#39;avancement du projet
 
-# CarFactor
+# carfactor
 
 **Réception du projet le 14/11/209 :**
 
@@ -27,5 +27,6 @@ Quand le programme nous demande de rentrer un chiffre entre 1 et 5 :
 - Fix du problème du case 1 dans main() : 106 : Integer.parseInt Double.parseDouble
   - Résultat : ça compile sans erreur.
 - Case 2 and 3 put in commentaires.
-- PMD Warnings all fixed (6 out of 6).
+- PMD Warnings fixed (6 out of 6).
+- Checkstyles Warnings fixed (445 out of 445).
 

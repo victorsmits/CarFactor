@@ -6,10 +6,10 @@
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.mkyong.hashing</groupId>
-    <artifactId>CarFactor</artifactId>
+    <artifactId>carfactor</artifactId>
     <packaging>jar</packaging>
     <version>1.0-SNAPSHOT</version>
-    <name>CarFactor</name>
+    <name>carfactor</name>
     <url>http://maven.apache.org</url>
     <build>
         <plugins>

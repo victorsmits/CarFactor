@@ -1,4 +1,4 @@
-package CarFactor;
+package carfactor;
 
 public class CalculatorClass {
     private static double essencePrice = 1.479; // €/L
@@ -6,7 +6,10 @@ public class CalculatorClass {
     private static double electricityPrice = 0.1524; // €/kWh
     private static int averageMileage = 15151; //data from 2015
 
-    public CalculatorClass() {}
+    /**
+     * avoid empty class builder
+     */
+    //public CalculatorClass() {}
 
     public static double insuranceCost(int catalogValue, int power){
         /**
