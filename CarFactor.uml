@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Diagram>
   <ID>JAVA</ID>
-  <edges>
-    <edge source="CarFactor.ComparatorClass" target="CarFactor.CriterionEmission">
   <OriginalElement>CarFactor</OriginalElement>
   <nodes>
     <node x="1387.0" y="673.0">CarFactor.CriterionMileage</node>

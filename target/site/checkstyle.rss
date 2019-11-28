@@ -26,7 +26,7 @@ under the License.
     <copyright>&#169;2019</copyright>
     <item>
       <title>File: 15,
-             Errors: 456,
+             Errors: 445,
              Warnings: 0,
              Infos: 0
       </title>
@@ -46,105 +46,7 @@ under the License.
           <tbody>
                           <tr>
                 <td>
-                  <a href="http://maven.apache.org/checkstyle.html#carfactor.CriterionYear.java">carfactor/CriterionYear.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  18
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://maven.apache.org/checkstyle.html#carfactor.CalculatorClass.java">carfactor/CalculatorClass.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  122
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://maven.apache.org/checkstyle.html#carfactor.CriterionNorm.java">carfactor/CriterionNorm.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  9
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://maven.apache.org/checkstyle.html#carfactor.CarModelClass.java">carfactor/CarModelClass.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  86
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://maven.apache.org/checkstyle.html#carfactor.main.java">carfactor/main.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  35
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://maven.apache.org/checkstyle.html#carfactor.CriterionEmission.java">carfactor/CriterionEmission.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  9
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://maven.apache.org/checkstyle.html#carfactor.CriterionPower.java">carfactor/CriterionPower.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  12
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://maven.apache.org/checkstyle.html#carfactor.CarClass.java">carfactor/CarClass.java</a>
+                  <a href="http://maven.apache.org/checkstyle.html#CarFactor.CarClass.java">CarFactor/CarClass.java</a>
                 </td>
                 <td>
                   0
@@ -158,49 +60,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://maven.apache.org/checkstyle.html#carfactor.CriterionBuyYear.java">carfactor/CriterionBuyYear.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  11
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://maven.apache.org/checkstyle.html#carfactor.CriterionMileage.java">carfactor/CriterionMileage.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  12
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://maven.apache.org/checkstyle.html#carfactor.CriterionPrice.java">carfactor/CriterionPrice.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  9
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://maven.apache.org/checkstyle.html#carfactor.Criterion.java">carfactor/Criterion.java</a>
+                  <a href="http://maven.apache.org/checkstyle.html#CarFactor.Criterion.java">CarFactor/Criterion.java</a>
                 </td>
                 <td>
                   0
@@ -214,7 +74,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://maven.apache.org/checkstyle.html#carfactor.CriterionConsumption.java">carfactor/CriterionConsumption.java</a>
+                  <a href="http://maven.apache.org/checkstyle.html#CarFactor.CriterionPower.java">CarFactor/CriterionPower.java</a>
                 </td>
                 <td>
                   0
@@ -223,12 +83,12 @@ under the License.
                   0
                 </td>
                 <td>
-                  13
+                  12
                 </td>
               </tr>
                           <tr>
                 <td>
-                  <a href="http://maven.apache.org/checkstyle.html#carfactor.CriterionFuel.java">carfactor/CriterionFuel.java</a>
+                  <a href="http://maven.apache.org/checkstyle.html#CarFactor.CriterionFuel.java">CarFactor/CriterionFuel.java</a>
                 </td>
                 <td>
                   0
@@ -242,7 +102,119 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://maven.apache.org/checkstyle.html#carfactor.ComparatorClass.java">carfactor/ComparatorClass.java</a>
+                  <a href="http://maven.apache.org/checkstyle.html#CarFactor.CalculatorClass.java">CarFactor/CalculatorClass.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  122
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#CarFactor.CriterionYear.java">CarFactor/CriterionYear.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  18
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#CarFactor.CriterionEmission.java">CarFactor/CriterionEmission.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  9
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#CarFactor.CriterionNorm.java">CarFactor/CriterionNorm.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  9
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#CarFactor.CarModelClass.java">CarFactor/CarModelClass.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  86
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#CarFactor.main.java">CarFactor/main.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  24
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#CarFactor.CriterionMileage.java">CarFactor/CriterionMileage.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  12
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#CarFactor.CriterionPrice.java">CarFactor/CriterionPrice.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  9
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#CarFactor.ComparatorClass.java">CarFactor/ComparatorClass.java</a>
                 </td>
                 <td>
                   0
@@ -252,6 +224,34 @@ under the License.
                 </td>
                 <td>
                   66
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#CarFactor.CriterionConsumption.java">CarFactor/CriterionConsumption.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  13
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#CarFactor.CriterionBuyYear.java">CarFactor/CriterionBuyYear.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  11
                 </td>
               </tr>
                       </tbody>

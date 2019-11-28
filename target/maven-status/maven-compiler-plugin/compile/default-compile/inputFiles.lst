@@ -1,15 +1,15 @@
-C:\Users\malek\OneDrive\Bureau\CarFactor-master\src\main\java\carfactor\CriterionEmission.java
-C:\Users\malek\OneDrive\Bureau\CarFactor-master\src\main\java\carfactor\CriterionPrice.java
-C:\Users\malek\OneDrive\Bureau\CarFactor-master\src\main\java\carfactor\CriterionPower.java
-C:\Users\malek\OneDrive\Bureau\CarFactor-master\src\main\java\carfactor\CriterionNorm.java
-C:\Users\malek\OneDrive\Bureau\CarFactor-master\src\main\java\carfactor\CriterionConsumption.java
-C:\Users\malek\OneDrive\Bureau\CarFactor-master\src\main\java\carfactor\main.java
-C:\Users\malek\OneDrive\Bureau\CarFactor-master\src\main\java\carfactor\ComparatorClass.java
-C:\Users\malek\OneDrive\Bureau\CarFactor-master\src\main\java\carfactor\CarModelClass.java
-C:\Users\malek\OneDrive\Bureau\CarFactor-master\src\main\java\carfactor\CriterionBuyYear.java
-C:\Users\malek\OneDrive\Bureau\CarFactor-master\src\main\java\carfactor\CarClass.java
-C:\Users\malek\OneDrive\Bureau\CarFactor-master\src\main\java\carfactor\CriterionYear.java
-C:\Users\malek\OneDrive\Bureau\CarFactor-master\src\main\java\carfactor\Criterion.java
-C:\Users\malek\OneDrive\Bureau\CarFactor-master\src\main\java\carfactor\CalculatorClass.java
-C:\Users\malek\OneDrive\Bureau\CarFactor-master\src\main\java\carfactor\CriterionMileage.java
-C:\Users\malek\OneDrive\Bureau\CarFactor-master\src\main\java\carfactor\CriterionFuel.java
+D:\Bureau\ECAM\MA1\Architecture et qualite logicielle\carFactor_prjct\src\main\java\CarFactor\CriterionFuel.java
+D:\Bureau\ECAM\MA1\Architecture et qualite logicielle\carFactor_prjct\src\main\java\CarFactor\CalculatorClass.java
+D:\Bureau\ECAM\MA1\Architecture et qualite logicielle\carFactor_prjct\src\main\java\CarFactor\CriterionEmission.java
+D:\Bureau\ECAM\MA1\Architecture et qualite logicielle\carFactor_prjct\src\main\java\CarFactor\CriterionPrice.java
+D:\Bureau\ECAM\MA1\Architecture et qualite logicielle\carFactor_prjct\src\main\java\CarFactor\Criterion.java
+D:\Bureau\ECAM\MA1\Architecture et qualite logicielle\carFactor_prjct\src\main\java\CarFactor\main.java
+D:\Bureau\ECAM\MA1\Architecture et qualite logicielle\carFactor_prjct\src\main\java\CarFactor\CarClass.java
+D:\Bureau\ECAM\MA1\Architecture et qualite logicielle\carFactor_prjct\src\main\java\CarFactor\CriterionConsumption.java
+D:\Bureau\ECAM\MA1\Architecture et qualite logicielle\carFactor_prjct\src\main\java\CarFactor\CriterionYear.java
+D:\Bureau\ECAM\MA1\Architecture et qualite logicielle\carFactor_prjct\src\main\java\CarFactor\CarModelClass.java
+D:\Bureau\ECAM\MA1\Architecture et qualite logicielle\carFactor_prjct\src\main\java\CarFactor\ComparatorClass.java
+D:\Bureau\ECAM\MA1\Architecture et qualite logicielle\carFactor_prjct\src\main\java\CarFactor\CriterionMileage.java
+D:\Bureau\ECAM\MA1\Architecture et qualite logicielle\carFactor_prjct\src\main\java\CarFactor\CriterionNorm.java
+D:\Bureau\ECAM\MA1\Architecture et qualite logicielle\carFactor_prjct\src\main\java\CarFactor\CriterionBuyYear.java
+D:\Bureau\ECAM\MA1\Architecture et qualite logicielle\carFactor_prjct\src\main\java\CarFactor\CriterionPower.java

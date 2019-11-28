@@ -6,7 +6,6 @@ CarFactor\CriterionPower.class
 CarFactor\CriterionBuyYear.class
 CarFactor\CalculatorClass.class
 CarFactor\ComparatorClass.class
-CarFactor\main.class
 CarFactor\CriterionYear.class
 CarFactor\CriterionEmission.class
 CarFactor\CriterionConsumption.class
