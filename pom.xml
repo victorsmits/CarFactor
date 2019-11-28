@@ -9,7 +9,11 @@
     <artifactId>carfactor</artifactId>
     <packaging>jar</packaging>
     <version>1.0-SNAPSHOT</version>
+<<<<<<< HEAD
     <name>carfactor</name>
+=======
+    <name>CarFactor</name>
+>>>>>>> parent of af9d056... Test
     <url>http://maven.apache.org</url>
     <build>
         <plugins>
